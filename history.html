@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Sayuri MIYAKE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="三宅咲緩のホームページ/2004年4月24日生、空の青と世界が好きです">
+<meta name="keywords" content="あかとき,宇宙">
+<link rel="stylesheet" href="style.css">
+<script src="fixmenu_pagetop.js"></script>
+<script src="openclose.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- favicon/webclipicon -->
+<link rel="icon" href="favicon.png" />
+<link rel="apple-touch-icon" href="webclip.png" />
+
+</head>
+
+<body>
+
+<div id="container">
+
+<header>
+
+<h1 id="logo"><a href="index.html"><img src="logo.png" alt="Sayuri MIYAKE"></a></h1>
+
+<!--PC用（801px以上端末）メニュー-->
+<nav id="menubar">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="history.html">History</a></li>
+<li><a href="link.html">Link</a></li>
+</ul>
+</nav>
+
+<ul class="icon">
+	<!--<li><a href="#"><img src="icon_facebook.png" alt="Facebook"></a></li>-->
+	<li><a href="https://twitter.com/oneone___o"><img src="icon_twitter.png" alt="Twitter"></a></li>
+	<li><a href="https://www.instagram.com/oneone___o/"><img src="icon_instagram.png" alt="Instagram"></a></li>
+</ul>
+
+</header>
+
+<div id="contents">
+
+<section class="inner first">
+<h2>History</h2>
+
+<figure id="item-image">
+<img src="gallery_1.jpg" alt="2023年えひめ南予共同気球実験" id="item_image1">
+<img src="gallery_1.jpg" alt="2023年えひめ南予共同気球実験" id="item_image2">
+<p id="imgcaption">2023年えひめ南予共同気球実験</p>
+</figure>
+
+<div id="thumbnail-box">
+<img src="gallery_1.jpg" alt="2023年えひめ南予共同気球実験" class="thumbnail">
+<!--
+<img src="images/sample2.jpg" alt="画像２の説明文をここに入れます" class="thumbnail">
+<img src="images/sample3.jpg" alt="画像３の説明文をここに入れます" class="thumbnail">
+<img src="images/sample4.jpg" alt="画像４の説明文をここに入れます" class="thumbnail">
+<img src="images/sample5.jpg" alt="画像５の説明文をここに入れます" class="thumbnail">
+-->
+</div>
+
+<h3>History</h3>
+<h4>2020年</h4>
+<ul class="disc">
+	<li>成田国際高校編入</li>
+	<li>生徒会副会長就任</li>
+	<li>Waffle Camp参加</li>
+</ul>
+<h4>2021年</h4>
+<ul class="disc">
+	<li>Technovation Girls 2021参加</li>
+	<li>第6回成田ビジネス講座参加</li>
+</ul>
+<h4>2022年</h4>
+<ul class="disc">
+	<li>制服アンケート実施</li>
+	<li>Technovation Girls 2022参加</li>
+</ul>
+<h4>2023年</h4>
+<ul class="disc">
+	<li>埼玉大学理学部物理学科入学</li>
+	<li>あかとき入会</li>
+	<li>えひめ南予共同気球実験参加</li>
+</ul>
+</section>
+
+<footer>
+<small>Copyright&copy; <a href="index.html">Sayuri MIYAKE</a> All Rights Reserved.</small>
+<span class="pr">《<a href="https://template-party.com/" target="_blank">Web Design:Template-Party</a>》</span>
+</footer>
+
+</div>
+<!--/#contents-->
+
+</div>
+<!--/#container-->
+
+<!--オープニングアニメーション-->
+<aside id="mainimg">
+	<img src="1.png" alt="" class="photo photo1">
+	<img src="1.png" alt="" class="photo photo2">
+	<img src="1.png" alt="" class="photo photo3">
+	<img src="1.png" alt="" class="photo photo4">
+	<img src="1.png" alt="" class="photo photo5">
+	<img src="1.png" alt="" class="photo photo6">
+	<img src="1.png" alt="" class="photo photo7">
+	<img src="1.png" alt="" class="photo photo8">
+	<img src="1.png" alt="" class="photo photo9">
+</aside>
+
+<!--小さな端末用（800px以下端末）メニュー-->
+<nav id="menubar-s">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="history.html">History</a></li>
+<li><a href="link.html">Link</a></li>
+</ul>
+</nav>
+
+<!--ページの上部に戻る「↑」ボタン-->
+<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+<!--メニュー開閉ボタン-->
+<div id="menubar_hdr" class="close"></div>
+
+<!--メニューの開閉処理条件設定　800px以下-->
+<script>
+if (OCwindowWidth() <= 800) {
+	open_close("menubar_hdr", "menubar-s");
+}
+</script>
+
+<!-- イメージチェンジ設定 -->
+<script src="imgchg_pack.js"></script>
+<script>
+imgchg_start('item_image1', 'item_image2', 'thumbnail', 'imgcaption', 0);
+</script>
+
+</body>
+</html>
