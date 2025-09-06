@@ -12,7 +12,7 @@
 }
 /*全ての写真に対する共通指定（※トップページのみへの追加指定）*/
 .home .photo {
-	animation-duration: 2.5S;	/*アニメーションの実行時間。秒。*/
+	animation-duration: 2S;	/*アニメーションの実行時間。秒。初期値2.5*/
 	animation-fill-mode: both;	/*アニメーションの待機中は最初のキーフレームを、完了後は最後のキーフレームを維持する*/
 	animation-timing-function: ease-in-out;	/*速度の変化パターン*/
 }
@@ -24,7 +24,7 @@
 }
 .home .photo1 {
 	animation-name: type1;	/*下の「アニメーション設定」の「type1」を使う指定*/
-	animation-delay: 0.4s;	/*アニメーションを遅れて開始させる指定。0.4sは0.4秒の事。*/
+	animation-delay: 0.2s;	/*アニメーションを遅れて開始させる指定。0.4sは0.4秒の事。初期値0.4*/
 }
 /*photo2*/
 .photo2 {
@@ -33,7 +33,7 @@
 }
 .home .photo2 {
 	animation-name: type2;	/*下の「アニメーション設定」の「type2」を使う指定*/
-	animation-delay: 0.8s;	/*アニメーションを遅れて開始させる指定。0.8sは0.8秒の事。*/
+	animation-delay: 0.4s;	/*アニメーションを遅れて開始させる指定。0.8sは0.8秒の事。初期値0.4*/
 }
 /*photo3*/
 .photo3 {
@@ -42,7 +42,7 @@
 }
 .home .photo3 {
 	animation-name: type3;	/*下の「アニメーション設定」の「type3」を使う指定*/
-	animation-delay: 1s;	/*アニメーションを遅れて開始させる指定。1sは1秒の事。*/
+	animation-delay: 0.5s;	/*アニメーションを遅れて開始させる指定。1sは1秒の事。初期値1*/
 }
 /*photo4*/
 .photo4 {
@@ -51,7 +51,7 @@
 }
 .home .photo4 {
 	animation-name: type2;	/*下の「アニメーション設定」の「type2」を使う指定*/
-	animation-delay: 1.2s;	/*アニメーションを遅れて開始させる指定。1.2sは1.2秒の事。*/
+	animation-delay: 0.6s;	/*アニメーションを遅れて開始させる指定。1.2sは1.2秒の事。初期値1.2*/
 }
 /*photo5*/
 .photo5 {
@@ -60,7 +60,7 @@
 }
 .home .photo5 {
 	animation-name: type1;	/*下の「アニメーション設定」の「type1」を使う指定*/
-	animation-delay: 1.4s;	/*アニメーションを遅れて開始させる指定。1.4sは1.4秒の事。*/
+	animation-delay: 0.7s;	/*アニメーションを遅れて開始させる指定。1.4sは1.4秒の事。初期値1.4*/
 }
 /*photo6*/
 .photo6 {
@@ -69,7 +69,7 @@
 }
 .home .photo6 {
 	animation-name: type1;	/*下の「アニメーション設定」の「type1」を使う指定*/
-	animation-delay: 1.6s;	/*アニメーションを遅れて開始させる指定。1.6sは1.6秒の事。*/
+	animation-delay: 0.8s;	/*アニメーションを遅れて開始させる指定。1.6sは1.6秒の事。初期値1.6*/
 }
 /*photo7*/
 .photo7 {
@@ -78,7 +78,7 @@
 }
 .home .photo7 {
 	animation-name: type2;	/*下の「アニメーション設定」の「type2」を使う指定*/
-	animation-delay: 1.8s;	/*アニメーションを遅れて開始させる指定。1.8sは1.8秒の事。*/
+	animation-delay: 0.9s;	/*アニメーションを遅れて開始させる指定。1.8sは1.8秒の事。初期値1.8*/
 }
 /*photo8*/
 .photo8 {
@@ -87,7 +87,7 @@
 }
 .home .photo8 {
 	animation-name: type3;	/*下の「アニメーション設定」の「type3」を使う指定*/
-	animation-delay: 2s;	/*アニメーションを遅れて開始させる指定。2sは2秒の事。*/
+	animation-delay: 1s;	/*アニメーションを遅れて開始させる指定。2sは2秒の事。初期値2*/
 }
 /*photo9*/
 .photo9 {
@@ -96,7 +96,7 @@
 }
 .home .photo9 {
 	animation-name: type3;	/*下の「アニメーション設定」の「type3」を使う指定*/
-	animation-delay: 2.2s;	/*アニメーションを遅れて開始させる指定。2.2sは2.2秒の事。*/
+	animation-delay: 1.1s;	/*アニメーションを遅れて開始させる指定。2.2sは2.2秒の事。初期値2.2*/
 }
 
 /*コマ割り
