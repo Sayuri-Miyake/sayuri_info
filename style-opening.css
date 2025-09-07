@@ -12,7 +12,7 @@
 }
 /*全ての写真に対する共通指定（※トップページのみへの追加指定）*/
 .home .photo {
-	animation-duration: 2S;	/*アニメーションの実行時間。秒。初期値2.5*/
+	animation-duration: 1.3S;	/*アニメーションの実行時間。秒。初期値2.5*/
 	animation-fill-mode: both;	/*アニメーションの待機中は最初のキーフレームを、完了後は最後のキーフレームを維持する*/
 	animation-timing-function: ease-in-out;	/*速度の変化パターン*/
 }
