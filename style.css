@@ -150,7 +150,7 @@ header .icon img {
 }
 /*トップページのcontentsブロック*/
 .home #contents {
-	animation-delay: 5.5s;	/*アニメーションを遅れて開始させる指定の上書き。5.5sは5.5秒の事。アニメーションが終了した後、contentsを出力するまでの待機時間。*/
+	animation-delay: 3s;	/*アニメーションを遅れて開始させる指定の上書き。5.5sは5.5秒の事。アニメーションが終了した後、contentsを出力するまでの待機時間。*/
 }
 /*h2見出し*/
 #contents h2 {
